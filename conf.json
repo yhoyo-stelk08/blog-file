@@ -1,0 +1,336 @@
+{
+    "OamChannelItbbu" : {
+        "sheet_name" : "OamChannel",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "refIp"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ref_ip"
+        ]
+    },
+    "OmcChannelSdr" : {
+        "sheet_name" : "OmcChannel",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "ldn",
+            "omcServerIp",
+            "refIpLayerConfig"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ldn",
+            "omc_server_ip",
+            "ref_ip"
+        ]
+    },
+    "IpItbbu" : {
+        "sheet_name" : "Ip",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "ldn",
+            "ipAddress",
+            "refInterface",
+            "gatewayIp"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ldn",
+            "ip_address",
+            "ref_interface",
+            "gateway_ip"
+        ]
+    },
+    "IpSdr" : {
+        "sheet_name" : "IpLayerConfig",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "ldn",
+            "ipAddr",
+            "gatewayIp",
+            "vid"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ldn",
+            "ip_address",
+            "gateway_ip",
+            "vlan_id"
+        ]
+    },
+    "SctpItbbu" : {
+        "sheet_name" : "Sctp",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "refIp",
+            "remotePort",
+            "remoteIp",
+            "radioMode",
+            "operState"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ref_ip",
+            "remote_port",
+            "ip_sctp",
+            "radio_mode",
+            "oper_state"
+        ]
+    },
+    "SctpSdr" : {
+        "sheet_name" : "Sctp",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "radioMode",
+            "refIpLayerConfig",
+            "remotePort",
+            "remoteAddr",
+            "operState"
+            
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "radio_mode",
+            "ref_ip",
+            "remote_port",
+            "ip_sctp",
+            "oper_state"
+        ]
+    },
+    "ServiceMapLteItbbu" : {
+        "sheet_name" : "ServiceMapLte",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "refIp"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ref_ip"
+        ]
+    },
+    "ServiceMapSdr" : {
+        "sheet_name" : "ServiceMap",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "refIpLayerConfig",
+            "fddServiceDscpMap_serviceDscp1",
+            "tddServiceDscpMap_serviceDscp1"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ref_ip",
+            "fdd_filter",
+            "tdd_filter"
+        ]
+    },
+    "ServiceMap5gItbbu" : {
+        "sheet_name" : "ServiceMap5g",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "refIp"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ref_ip"
+        ]
+    },
+    "ENBCUCPFunctionItbbu" : {
+        "sheet_name" : "ENBCUCPFunction",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "enbName"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "ne_name"
+        ]
+    },
+    "GNBCUCPFunctionItbbu" : {
+        "sheet_name" : "GNBCUCPFunction",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "gNBIdLength",
+            "userLabel"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "gnb_id_length",
+            "ne_name"
+        ]
+    },
+    "BtsFunctionItbbu" : {
+        "sheet_name" : "BtsFunction",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "siteId"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "site_id"
+        ]
+    },
+    "BtsFunctionSdr" : {
+        "sheet_name" : "BtsFunction",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "siteId"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "site_id"
+        ]
+    },
+    "ENBFunctionFDD" : {
+        "sheet_name" : "ENBFunctionFDD",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "enbName"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "site_name"
+        ]
+    },
+    "ENBFunctionTDD" : {
+        "sheet_name" : "ENBFunctionTDD",
+        "header" : 0,
+        "usecols" : [
+            "ManagedElementType",
+            "SubNetwork",
+            "ManagedElement",
+            "enbName"
+        ],
+        "header_cols" : [
+            "me_type",
+            "subnetwork_id",
+            "me_id",
+            "site_name"
+        ]
+    },
+    "GBtsEquipmentItbbu" : {
+        "sheet_name" : "GBtsEquipment",
+        "header" : 0,
+        "usecols" : [
+            "moId",
+            "userLabel"
+        ],
+        "header_cols" : [
+            "site_id",
+            "site_name"
+        ]
+    },
+    "DatabaseUME" : {
+		"sheet_name" : "UME",
+		"header" : 0,
+		"usecols" : [
+			"SUBNETWORKID/RNCID/BSCID",
+			"SUBNETWORK NAME/BSCNAME/RNCNAME",
+			"REGIONAL",
+			"OSS"
+		],"header_cols" : [
+			"subnetwork_id"
+			,"subnetwork_name"
+			,"regional"
+			,"oss"
+		]
+ 	},
+    "UME_SITE" : {
+		"sheet_name" : "UME SITE",
+		"header" : 0,
+		"usecols" : [
+			"NEID",
+			"TO",
+			"Branch",
+			"Regional"
+		],"header_cols" : [
+			"ne_id"
+			,"to"
+			,"branch"
+			,"regional"
+		]
+ 	},
+     "UME_BSC" : {
+		"sheet_name" : "UME BSC",
+		"header" : 0,
+		"usecols" : [
+			"NEID",
+			"BSC ID",
+			"BSC Name"
+		],"header_cols" : [
+			"ne_id"
+			,"bsc_id"
+			,"bsc_name"
+		]
+ 	}
+}
